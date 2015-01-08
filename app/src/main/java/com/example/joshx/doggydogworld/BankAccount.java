@@ -26,6 +26,7 @@ public class BankAccount {
     public void withdrawal(double amount) {
 mTransactions.add(-amount);
         if (getBalance() < 0) {
+            //just testing git
 mTransactions.add(-OVERDRAFT_FEE);
         }
             }
