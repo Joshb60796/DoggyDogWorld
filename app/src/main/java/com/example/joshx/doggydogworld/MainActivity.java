@@ -49,7 +49,7 @@ public class MainActivity extends ActionBarActivity {
         Log.d(TAG, "The size of the array is dynamic and is currently: " +arrayList.size());
 
         //creating the bank account object, though the static variables already exist prior to object instantiation
-        mCurrentAccount = new BankAccount(BankAccount.Type.CHECKING);
+        mCurrentAccount = new BankAccount(BankAccount.Type.SAVINGS);
 
         //some fetching of objects
         mAmountDisplay = (TextView) findViewById(R.id.balance_display);
